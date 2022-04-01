@@ -1,0 +1,17 @@
+.btnMenu{
+    display: block;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    padding: 20px 15px;
+    background-position: 15px center;
+}
+.btnMenu_open {
+    background-image: url(../Img/palitinhos.svg);
+    background-size: 40px;
+}
+.btnMenu_close{
+    background-color: rgb(102, 100, 100);
+    background-image: url(../Img/x.svg);
+    background-size: 35px;
+
+}

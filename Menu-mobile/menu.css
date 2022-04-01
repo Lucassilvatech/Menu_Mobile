@@ -1,0 +1,21 @@
+.menu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+.menu_open {
+    transform: translateX(0);
+}
+
+.menu-item {
+    border-bottom: 1px solid rgba(90, 90, 90, 0.425);
+    padding: 20px 15px;
+}
+.menu-item-action {
+    color: rgb(102, 100, 100);
+    text-decoration: none;
+    text-transform: uppercase;
+}
